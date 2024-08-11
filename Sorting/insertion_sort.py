@@ -10,6 +10,6 @@ def insertion_sort(lst):
 
 if __name__ == "__main__":
     lst = [1,9,3,7,2,8,4,6,5,0]
-    print("\n\nBefore Sorting: ", lst)
+    print(f"\nBEFORE SORTING:\t\t {lst}")
     data_insertion_sort = insertion_sort(lst)
-    print("AFTER INSERTION SORT: ", data_insertion_sort)
+    print(f"AFTER INSERTION SORT:\t {data_insertion_sort}\n")

@@ -106,6 +106,7 @@ class CustomSort:
         return arr
 
     def insertion_asc(self, arr):
+        """INSERTION SORT(ACCENDING ORDER)"""
         indexing_length = len(arr)
         for i in range(1, indexing_length):
             value_to_sort = arr[i]
@@ -117,6 +118,7 @@ class CustomSort:
         return arr
 
     def insertion_desc(self, arr):
+        """INSETTION SORT(DECENDING ORDER)"""
         n = len(arr)
         for i in range(1, n):
             x = arr[i]
